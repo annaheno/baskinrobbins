@@ -14,7 +14,7 @@ wrap {width: 100%;}
 
 
 #header {position: relative; z-index: 100; width: 100%; top: 0; height : 90px; background-color: transparent;}
-#header h1 {position: absolute; z-index: 999;}
+#header h1 {position: absolute; z-index: 999; height: 39px;}
 
 
 #nav {position: absolute; width: 100%; height: 39px; top: 50px; z-index: 100; overflow: hidden; background: #fff; transition-duration: 0.3s;}
@@ -77,9 +77,9 @@ wrap {width: 100%;}
 /*slide section*/
 
 .slick-prev {position: absolute; left: 10px; top: 50%; transform: translateY(-50%); z-index: 10;
-color: transparent; font-size: 0; width: 109px; height: 109px; background: url('images/prev_btn.png') center;}
+color: transparent; font-size: 0; width: 109px; height: 109px; background: url('/images/prev_btn.png') center;}
 .slick-next {position: absolute; right: 10px; bottom: 35%; transform: translateY(-50%);
-    color: transparent; font-size: 0; width: 109px; height: 109px; background: url('images/next_btn.png') center;}
+    color: transparent; font-size: 0; width: 109px; height: 109px; background: url('/images/next_btn.png') center;}
 /*slide indicate*/
 
 .slick-dots {position: absolute; transform: translateX(-50%); bottom: 10px; left: 50%; text-indent: -9999px;}
@@ -149,7 +149,7 @@ background-color: #fff; border-radius: 5px;}
 #menu-wrap ul.menu li.menubox5 dd {font-size: 17px;}
 #menu-wrap ul.menu li.menubox6 dd {font-size: 16px; line-height: 22px;}
 
-#menu-wrap ul.menu li button {position: relative; width: 210px; height: 40px; background: url('images/menu_btn.png') no-repeat center; cursor: pointer;}
+#menu-wrap ul.menu li button {position: relative; width: 210px; height: 40px; background: url('/images/menu_btn.png') no-repeat center; cursor: pointer;}
 #menu-wrap ul.menu li button img {width: 23px; height: 17px; position: absolute; bottom: 24%; left: 35%;}
 #menu-wrap ul.menu li:hover button img {animation: bounce 2s infinite;}
 
@@ -203,7 +203,7 @@ background-color: #fff; border-radius: 5px;}
 .store input[type="text"] {position: absolute; width: 320px; height: 60px; border: 1px solid #ccc; border-radius: 100px;
 bottom: 16%; left: 28%; text-indent: 30px; font-size: 18px; box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);}
 .store input[type="text"]::placeholder {font-size: 18px;}
-.store button {position: absolute; z-index: 999; width: 40px; height: 41px; background: url('images/store_search.png') center; 
+.store button {position: absolute; z-index: 999; width: 40px; height: 41px; background: url('/images/store_search.png') center; 
     cursor: pointer; bottom: 21%; right: 25%; }
 
     @media screen and (max-width:1280px){
@@ -226,7 +226,7 @@ bottom: 16%; left: 28%; text-indent: 30px; font-size: 18px; box-shadow: 0 4px 6p
 /* store end */
 
 /* delivery start */
-.delivery {width: 630px; margin-left : 1px;}
+.delivery {width: 630px;}
 .delivery img {width: 100%; box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);}
 
 @media screen and (max-width:1280px){
