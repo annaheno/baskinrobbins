@@ -76,9 +76,9 @@ wrap {width: 100%;}
 #slide img {width : 100%;}
 /*slide section*/
 
-.slick-prev {position: absolute; left: 10px; top: 50%; transform: translateY(-50%); z-index: 10;
+.slick-prev {position: absolute; left: 10px; top: 50%; transform: translateY(-50%); z-index: 10; cursor: pointer;
 color: transparent; font-size: 0; width: 109px; height: 109px; background: url('/images/prev_btn.png') center;}
-.slick-next {position: absolute; right: 10px; bottom: 35%; transform: translateY(-50%);
+.slick-next {position: absolute; right: 10px; bottom: 35%; transform: translateY(-50%); cursor: pointer;
     color: transparent; font-size: 0; width: 109px; height: 109px; background: url('/images/next_btn.png') center;}
 /*slide indicate*/
 
@@ -198,13 +198,13 @@ background-color: #fff; border-radius: 5px;}
     justify-content: center;}
 #sd-wrap h2 {width: 630px; margin: 30px auto;}
 /* store start */
-.store {width: 630px;}
+.store {width: 630px; margin-right: 10px;}
 .store img {width: 100%; margin: 0 auto; box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);}
 .store input[type="text"] {position: absolute; width: 320px; height: 60px; border: 1px solid #ccc; border-radius: 100px;
-bottom: 16%; left: 28%; text-indent: 30px; font-size: 18px; box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);}
+bottom: 17%; left: 25%; text-indent: 30px; font-size: 18px; box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);}
 .store input[type="text"]::placeholder {font-size: 18px;}
 .store button {position: absolute; z-index: 999; width: 40px; height: 41px; background: url('/images/store_search.png') center; 
-    cursor: pointer; bottom: 21%; right: 25%; }
+    cursor: pointer; bottom: 20%; left: 39%; }
 
     @media screen and (max-width:1280px){
         #sd-wrap {max-width: 768px; height: 260px;}
